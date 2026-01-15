@@ -59,7 +59,7 @@ class DetailScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 8.0),
                         Text(
-                          place.openDays, // <-- DIUBAH
+                          place.openDays,
                           style: iniFontCustom,
                         ),
                       ],
@@ -72,7 +72,7 @@ class DetailScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 8.0),
                         Text(
-                          place.openTime, // <-- DIUBAH
+                          place.openTime,
                           style: iniFontCustom,
                         ),
                       ],
@@ -85,7 +85,7 @@ class DetailScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 8.0),
                         Text(
-                          place.ticketPrice, // <-- DIUBAH
+                          place.ticketPrice,
                           style: iniFontCustom,
                         ),
                       ],
@@ -97,12 +97,11 @@ class DetailScreen extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(16.0),
                 child: Text(
-                  // <-- 'const' dihilangkan dari sini
-                  place.description, // <-- DIUBAH
+                  place.description,
                   textAlign: TextAlign.justify,
                   style: const TextStyle(
                     fontSize: 16.0,
-                  ), // 'const' dipindah ke sini
+                  ),
                 ),
               ),
 
